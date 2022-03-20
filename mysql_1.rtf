@@ -1,0 +1,265 @@
+{\rtf1\ansi\deff0\deflang2057\plain\fs24\fet1
+{\fonttbl
+{\f0\froman Arial;}
+}
+{\info
+{\createim\yr2022\mo3\dy20\hr13\min3}
+}
+
+\paperw11907\paperh16840\margl1800\margr1800\margt1440\margb1440
+\slmult0\ltrpar\li0
+{\fs28
+mysql_1
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\b\fs24
+Instalacao ubumtu 
+{\field{\*\fldinst HYPERLINK "https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-pt"}{\fldrslt (link)}}
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\b\fs24
+instala\u231\'3f\u227\'3fo xampp 
+{\field{\*\fldinst HYPERLINK "https://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux/"}{\fldrslt (link)}}
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\b\fs24
+PHPADMIN_3
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs20
+SELECIONA DADOS
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+SELECT
+}
+\par\pard\plain
+{\slmult0\ltrpar\li600
+SELECT * FROM pessoa-&gt; todos os camposSELECT nome FROM pessoa-&gt; somente o nome
+\par\pard\plain}
+\slmult0\ltrpar\li400
+{\fs20
+ATUALIZAR DADOS
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+UPDATE
+}
+\par\pard\plain
+{\slmult0\ltrpar\li600
+UPDATE pessoa SET nome = "Nathally Souza"-&gt; todos os nomes ser\u227\'3fo alteradosUPDATE pessoa SET nome = "Nathally Souza" WHERE id=1;
+
+
+\par\pard\plain}
+\slmult0\ltrpar\li200
+{\b\fs24
+PHPADMIN_5
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs20
+GROUP BY
+}
+\par\pard\plain
+{\slmult0\ltrpar\li400
+SELECT COUNT(genero), GENERO FROM pessoas GROUP BY genero
+\par\pard\plain}
+\slmult0\ltrpar\li400
+{\fs20
+ADICIONAR COLUNA
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+PELA ESTRUTURA
+}
+\par\pard\plain
+\slmult0\ltrpar\li800
+{\fs20
+INCLUI GENERO
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+POR COMANDO
+}
+\par\pard\plain
+{\slmult0\ltrpar\li600
+ALTER TABLE 'pessoa' VARCHAR(1) NOT NULL AFTER 'nascimento'
+\par\pard\plain}
+\slmult0\ltrpar\li400
+{\fs20
+ATUALIZA A TABELA COM GENERO
+}
+\par\pard\plain
+{\slmult0\ltrpar\li400
+UPDATE pessoa SET genero='F' WHERE id=1;fazer para todos os dadosUPDATE pessoa SET genero='M' WHERE id=2;UPDATE pessoa SET genero='F' WHERE id=3;
+\par\pard\plain}
+\slmult0\ltrpar\li400
+{\fs20
+INSERE PARA TESTE
+}
+\par\pard\plain
+{\slmult0\ltrpar\li400
+INSERT INTO pessoa (nome, nascimento, genero) VALUES ('Paula', '1998 10 22', 'F')
+\par\pard\plain}
+\slmult0\ltrpar\li200
+{\b\fs24
+PHPADMIN_4
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs20
+DELETE FROM
+}
+\par\pard\plain
+{\slmult0\ltrpar\li400
+DELETE FROM pessoa WHERE id=5Boa pr\u225\'3ftica, fazer a verifica\u231\'3f\u227\'3fo antesSELECT FROM pessoa WHERE id=5
+\par\pard\plain}
+\slmult0\ltrpar\li400
+{\fs20
+ORDER BY
+}
+\par\pard\plain
+{\slmult0\ltrpar\li400
+SELECT * FROM pessoas ORDER BY nome
+\par\pard\plain}
+\slmult0\ltrpar\li600
+{\fs20
+DEFAULT
+}
+\par\pard\plain
+\slmult0\ltrpar\li800
+{\fs20
+CRESCENTE
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+COMANDO DESC
+}
+\par\pard\plain
+{\slmult0\ltrpar\li600
+SELECT * FROM pessoas ORDER BY nome DESC
+\par\pard\plain}
+\slmult0\ltrpar\li800
+{\fs20
+DECRESCENTE
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\b\fs24
+PHPADMIN_2
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs20
+INSER\u199\'3f\u195\'3fO
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+TABELA PESSOA
+}
+\par\pard\plain
+{\slmult0\ltrpar\li600
+INSERT INTO pessoas (nome, nascimento]'Natally, '1990 05 22')
+\par\pard\plain}
+\slmult0\ltrpar\li800
+{\fs20
+SEM ID
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+TABELA PESSOA
+}
+\par\pard\plain
+{\slmult0\ltrpar\li600
+INSERT INTO pessoas (nome, nascimento]'Natally, '1990 05 22')
+\par\pard\plain}
+\slmult0\ltrpar\li800
+{\fs20
+COM ID
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\b\fs24
+PHPADMIN_1
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs20
+CRIAR DB
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+NOME DO BANCO
+}
+\par\pard\plain
+\slmult0\ltrpar\li800
+{\fs20
+CRIAR
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs20
+CRIAR TABELA
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+CLICA EM SQL
+}
+\par\pard\plain
+\slmult0\ltrpar\li800
+{\fs20
+COMANDO
+}
+\par\pard\plain
+{\slmult0\ltrpar\li800
+CREATE TABLE pessoa(   nome VARCHAR (20),   nascimento DATE   
+\par\pard\plain}
+\slmult0\ltrpar\li400
+{\fs20
+VER A TABELA
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+ESTRUTURA
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs20
+CRIAR TABELA PESSOA
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs20
+USAR PELA OPCAO CRIAR TABELA AO INVES DE COMANDOS
+}
+\par\pard\plain
+\slmult0\ltrpar\li800
+{\fs20
+INTUITIVO
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\b\fs24
+CRIAR TABELA
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs20
+CREATE TABLE
+}
+\par\pard\plain
+}
